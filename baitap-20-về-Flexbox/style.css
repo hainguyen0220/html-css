@@ -1,0 +1,73 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+.main{
+	margin-top:20px ;
+	background-image:url('hinh.jpg');
+	background-size: cover;
+	width: 100%;
+	height: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.khoi{
+	width: 50%;
+	height: 50%;
+	background-color: #00000075;
+	text-align: center	;
+	padding-top: 30px;
+}
+.s-box{
+	width: 80%;
+	height: 10%;
+	background-color: white;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	/*margin: auto;*/
+	margin-left: 10%;
+	
+}
+.s-box i{
+	font-size: 30px;
+	margin-left: 100%;
+
+
+}
+.khoi h2{
+	font-size: 40px;
+	color: white;
+	font-family: arial;
+}
+.khoi p{
+  /* margin-top: 30px;
+   margin-bottom: 30px;	*/
+	color: white;
+	font-family: arial;
+	margin: 40px;
+}
+.noi-dung{
+	width: 90%;
+	margin-top: 30px;
+	margin: auto;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.content{
+	width: 30%;
+	margin-left: 20px;
+}
+.content i{
+	color: white;
+	font-size: 30px;
+	height: 50%;
+	font-size: 30px;
+	float: left;
+	display: inline;
+	margin-top: 30px;
+}

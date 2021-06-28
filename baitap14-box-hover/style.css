@@ -1,0 +1,60 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: none ;
+
+}
+
+.main-ten{
+	background-color:black;
+	padding: 50px;
+	
+} 
+
+.block-new{
+	width: 760px;
+	height: 170px;
+	background-color: white;
+	padding-left: 20px;
+	padding-top: 20px;
+	overflow: hidden;
+}
+
+.block-new img{
+	width: 160px;
+	height: 150px;
+	float: left;
+	margin-right: 20px;
+	box-shadow: 3px 3px 5px;
+	transition: 0.7s;
+}
+
+.block-new a{
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	display: block;
+	margin-bottom: 10px;
+	color: #E52717;
+	transition: 0.7s;
+
+}
+.block-new p{
+		font-family: monospace;
+		color: grey;
+        transition: 0.7s;
+}
+
+.block-new:hover a{
+	color: black;
+	transition: 0.7s;
+}
+.block-new:hover img{
+	box-shadow: 5px 5px 5px;
+	transition: 0.7s;
+}
+.block-new:hover p{
+	color: black;
+	transition: 0.7s;
+}

@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+.main{
+	margin: auto;
+	margin-top: 50px;
+	width: 1500px;
+	padding: 10px 0px;
+	padding-left: 20px;
+	display: flex;
+	flex-direction: row; /*sắp xếp các khối theo chiều ngang */
+	justify-content: space-around	; /*tự động dãn cách các khối */
+}
+.khoi{
+	width: 450px;
+	height: 160px;
+	background-color: white;
+	display: block;
+	text-align: center;
+	padding-top: 10px;
+	position: relative;
+	overflow: hidden;/* k hiển thị các phần ngòai khối */
+	box-shadow: grey 6px 6px 10px;
+	text-decoration: none; /*bỏ gạc chân*/ 
+	
+}
+.khoi h1{
+	font-family: tahoma;
+	color:#cc0000;
+	text-transform: uppercase; /*tự động viết hoa*/
+	font-size: 60px;
+}
+
+.khoi p{
+	font-family: tahoma;
+	color: black;
+	font-size: 20px;
+	font-weight: bold; /*in đậm*/
+}
+.khoi div{
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    background-color: #ff0000db;
+    top: -4px;
+    left: -37px;
+    transform: rotate(-45deg);/* quay khối -45d*/
+}
+
+.khoi:hover{
+	top: -5px;
+	transition: 0.6s;
+}

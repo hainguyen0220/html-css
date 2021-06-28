@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: none ;
+	
+
+}
+body{
+	background-color: #f5f5f5;
+}
+
+.main-ten{
+	background-color:white;
+	width: 930px;
+	height: 720px;
+	margin: auto ;
+	margin-top: 30px;
+} 
+.main-news{
+	height: 360px;
+	padding-left: 10px;
+	overflow: hidden;
+
+}
+.main-news h2{
+	text-transform: uppercase	;
+	font-family: 'Viaoda Libre', cursive;
+	margin-bottom: 20px;	
+}
+.main-news img{
+	width: 480px;
+	height: 286px;
+	float: right;
+}
+.noi-dung {
+	background-color: #ECF8FF;
+	height: 100%;
+	
+}
+.noi-dung p{
+	text-decoration: none;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-bottom: 15px;
+	border-bottom: 2px black dotted;
+	font-size: 20px;
+}
+
+.noi-dung ul{
+	padding-top:20px ;
+}
+
+.noi-dung i{
+	font-size: 8px;
+	color: ;
+}
+
+.sub-news div.tin{
+	width: 280px;
+	margin-right: 40px;
+	float: left;
+}
+.sub-news div.tin:nth-child(3) /*gọi div thứ 3 từ trái sang */
+{
+	width: 280px;
+	margin-right: 0px;
+	float: left;
+	
+}
+
+.sub-news div.tin img{
+	width: 280px;
+	height: 175px;
+	margin-bottom: 10px;
+}
+.sub-news div.tin p{
+	font-family: 'Viaoda Libre', cursive;
+	font-size: 15px;
+	font-weight: bold;
+	color: black;
+}
+.sub-news{
+	margin-top: 20px;
+	overflow: hidden;
+}
+
+.sub-news div.tin a{
+	font-family: 'Viaoda Libre', cursive;
+	font-size: 15px;
+	font-weight: bold;
+	color: black;	
+	text-decoration: none; /*bỏ gạch chân ở đường */
+}

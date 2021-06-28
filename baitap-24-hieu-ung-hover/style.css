@@ -1,0 +1,135 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.header{
+	width: 100%;
+	height: 800px;
+	background-image:url(hinh.jpg) ;
+	background-size: cover; /*không lắp ảnh */
+	background-attachment: fixed; /*cố định hình background*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.header h1{
+	font-size: 50px;
+	background-color: transparent;/* background trong suốt */
+	color: white;
+}
+.header a{
+	background-color: white;
+	display: block;
+	
+}
+/*khoi1*/
+.khoi1{
+	width: 200px;
+    height: 200px;
+    margin:auto;
+    margin-top: 100px;
+    margin-top: 100px;
+    background-color: grey;
+    position: relative;
+    z-index: 1;
+}
+.layer2{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: yellow;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+	transition: 0.6s;
+}
+.layer2 i{
+	font-size: 75px;
+    color: black;
+}
+
+.khoi1:hover .layer2 {
+	left: 50px;
+	transition: 0.6s;
+
+}
+
+/*khoi2*/
+.khoi2{
+	width: 200px;
+    height: 200px;
+    margin:auto;
+    margin-top: 100px;
+    background-color: grey;
+    position: relative;
+    z-index: 1;
+}
+.khoi2 .layer2{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: yellow;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+	transition: 0.6s;
+}
+.khoi2 .layer2 i{
+	font-size: 75px;
+    color: black;
+}
+
+.khoi2:hover .layer2 {
+	left: -20px;
+	top: 20px;
+	transition: 0.6s;
+
+}
+/*khoi3*/
+.khoi3{
+	width: 200px;
+    height: 200px;
+    margin:auto;
+    margin-top: 100px;
+    background-color: red;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    position: relative;
+    z-index: 1;
+}
+.khoi3 .layer2{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	background-color: grey;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	opacity: 0; /*đánh số hiện thị trước sau khi hover*/
+	top: 0px;
+	left: 0px;
+	z-index: 2; /*đánh số thứ tự các lớp*/ 
+	transition: 0.6s;
+}
+.khoi3 .layer2 i{
+	font-size: 75px;
+    color: white;
+}
+.khoi3 i{
+	font-size: 75px;
+    color: black;
+}
+.khoi3:hover .layer2 {
+	left: -20px;
+	top: 20px;
+	transition: 0.6s;
+    opacity: 1;
+}
